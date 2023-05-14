@@ -5,9 +5,9 @@ import sun.applet.Main;
 
 
 public class MenuBar extends JPanel implements ActionListener {
-
+// implements ActionListener để class MenuBar có thể lẳng nghe các sự kiện hàng động và xử lý
     private JMenuBar menubar;
-
+    // JMenubar tạo và quản lý thanh menu
     public boolean newGame = true;
 
 
