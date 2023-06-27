@@ -18,12 +18,12 @@ import java.util.List;
 import java.util.Random;
 
 public class BomberMan extends JPanel implements Runnable, KeyListener {
-    boolean isRunning;
+    boolean isRunning;     // Khai báo biến kiểu Boolean thông báo đang chạy
     boolean newGame = true;
     Level level = new Level();
-    int[][] scene = level.level1;
+    int[][] scene = level.level1;    // Khai báo map 
     BufferedImage view, view1;
-    Thread thread;
+    Thread thread;    // Khai báo luồng logic
 
     int level_game = 1;
     public Audio audio = new Audio();
